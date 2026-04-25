@@ -298,3 +298,96 @@ console.log(isPass(70));
  }
 let total=calculateAge(2006);
 console.log(total);
+
+function greets(name,callback){
+    console.log("hi "+ name);
+    callback()  //calling the function passed in
+}
+    function sayBye(){
+        console.log("bye");
+    }
+    greets("muskan",sayBye);
+// function practice 
+
+
+let calculate=(num1,num2,callback)=>{
+    let result=callback(num1,num2);
+    console.log(result);
+    
+}
+
+let add=(num1,num2)=>{
+    return num1+num2;
+}
+let multiply=(num1,num2)=>{
+    return num1*num2;
+}
+calculate(5,6,add);
+calculate(2,3,multiply);
+
+// exercise 1
+let multi=(a,b)=>{
+    return a*b;
+}
+let res=multi(88,67);
+console.log(res);
+// exercise 2
+let checkOddEven=(num)=>{
+    if(num%2==0){
+        console.log("even");
+    }else{
+        console.log("odd");
+    }
+}
+checkOddEven(6);
+// exdercise 3
+let stu5=[
+    {name:"muskan",marks:85},
+    {name:"priya",marks:33},
+    {name:"riya",marks:72},
+    {name:"sneha",marks:40}
+]
+let getPassedStudents=(stu5)=>{
+    let calc=stu5.filter((res)=>{
+        return res.marks>=40;
+       
+    })
+   return calc;
+}
+let result=getPassedStudents(stu5);
+console.log(result);
+
+// exercise 4
+let Operate=(num1,num2,callback)=>{
+ let result = callback(num1,num2);
+ console.log(result);
+}
+let addition=(num1,num2)=>{
+return num1+num2;
+}
+let substract=(num1,num2)=>{
+  return num1-num2;  
+}
+let divide=(num1,num2)=>{
+ return num1/num2;   
+}
+Operate(45,67,addition);
+Operate(56,60,substract);
+Operate(60,7,divide);
+
+// exercise 5
+let stu6=[
+    {name:"muskan",marks:85,city:"delhi"},
+    {name:"priya",marks:33,city:"kanpur"},
+    {name:"riya",marks:72,city:"gurgaon"},
+    {name:"sneha",marks:40,city:"noida"}
+]
+let describeStudent=(stu6)=>{
+ let greet=stu6.forEach((res)=>{
+    let status=res.marks>=40?"Pass!!":"fail!!"
+    console.log(res.name + " is from "+res.city+" and scored "+res.marks +" and is "+status)
+ })
+ 
+}
+describeStudent(stu6);
+
