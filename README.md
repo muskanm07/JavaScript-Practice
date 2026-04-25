@@ -1,4 +1,4 @@
-# JavaScript-Practice
+
 # 🚀 JavaScript Practice — From Zero to MERN
 
 > *"Future Muskan is depending on what I do tonight."*
