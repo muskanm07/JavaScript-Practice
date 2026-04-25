@@ -119,7 +119,8 @@ code JavaScript-Practice
 
 ## 📬 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/muskan-maurya)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/muskan-maurya-1344202b2/)
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/muskanm07)
 📧 muskanmaurya553@gmail.com
 
