@@ -30,6 +30,7 @@ This is my daily JavaScript practice log. Every file here represents real hands-
 | **Objects** | dot notation, bracket notation, Object.keys/values/entries |
 | **Functions** | declarations, expressions, arrow functions, return vs console.log |
 | **Callbacks** | passing functions, higher order functions |
+| **DOM** | getElementById, textContent, style, addEventListener, input.value |
 
 ### 🔄 Coming Soon
 
@@ -91,6 +92,7 @@ operate(5, 6, multiply) // 30
 | Day 2 | 23 April 2026 | Array methods, objects | 2 hrs |
 | Day 3 | 24 April 2026 | Object methods | 3 hrs |
 | Day 4 | 25 April 2026 | Functions and Callbacks| 3 hrs |
+| Day 5 | 26 April 2026 | DOM manipulation, event listeners, tip calculator | 3 hrs |
 
 ---
 
