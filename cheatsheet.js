@@ -112,3 +112,20 @@ example- student[key]
 
 
 // ---------------functions------------------------------
+// we use function for repetitive task
+//  like adding and substracting through this we do not have to write logic again and again once we made a function and write the  logic  only one time we can use it 
+// my weak topic is function right now forgetting syntax
+// and instead of returning and storing i print them so i do not have to repeat this mistake again
+// and i can do normal functions and logic i get stuck on callback and its logic
+// we use call back when we want one function to do different task based on situation
+// in real world we use callbacks for example we want to add delete and edit task so we can do this through callback
+
+
+// ----------------------------------DOM-------------------------------------------------
+// getElemnetById grabs html elements by ids
+// to change the text on web page with the help javascript we use variableName.textcontent and add the new text
+// with the help of style.color we can style the webpage through JS
+// to add functionality in web page we use functions
+// when we want to show something from input box on webpage we use .value next to input variable
+// if we want to show numbers on webpage we use either Number() or parseInt() because we have to show number in form of int not string textcontext gives strinf
+// again i don'n read questions with full focus so try to read and understand question and logic first

@@ -391,3 +391,72 @@ let describeStudent=(stu6)=>{
 }
 describeStudent(stu6);
 
+// exercise 1
+let findMax=(num1 ,num2,num3)=>{
+if(num1>=num2 && num1>=num3){
+    return num1
+} else if(num2>=num1 && num2>=num3){
+    return num2
+}else{
+    return num3
+}
+}
+let RESULT=findMax(23,6,57);
+console.log(RESULT);
+
+
+// exercise 2
+let s="muskan";
+let reverseString=(s)=>{
+
+let result=s.split("").reverse().join(""); 
+return result;
+}
+console.log(reverseString(s));
+// exercise 3
+let cvowel="muskan";
+let countVowels=(cvowel)=>{
+  let count=cvowel.split("").filter((res)=>{
+    if(res=='a'||res=='e'||res=='i'||res=='o'||res=='u'){
+        return res;
+    }
+    
+})
+return count.length;
+}
+let response=countVowels("muskan");
+console.log(response);
+
+
+let findLongestWord=(word)=>{
+let longWord=word.split(" ");
+let longest="";
+  longWord.forEach((res)=>{
+    if(res.length>longest.length){
+        longest=res;
+    }
+    
+  })
+   return longest;
+   }
+
+let finding=findLongestWord("javascrpt programming evalute new technology");
+console.log(finding);
+
+// exercise 2
+let productss=[
+    {name:"phone",price:20000},
+     {name:"phone",price:2000},
+      {name:"phone",price:500},
+]
+let calculateTotal=(productss)=>{
+    let totalPrice=productss.map((product)=>{
+         return product.price++;
+    })
+    totalPrice.forEach((res)=>{
+        let sum=res++;
+    })
+    return totalPrice;
+}
+let totalSum=calculateTotal(productss);
+console.log(totalSum);
