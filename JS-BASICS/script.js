@@ -427,7 +427,7 @@ return count.length;
 let response=countVowels("muskan");
 console.log(response);
 
-
+// exercise 1
 let findLongestWord=(word)=>{
 let longWord=word.split(" ");
 let longest="";
@@ -450,13 +450,118 @@ let productss=[
       {name:"phone",price:500},
 ]
 let calculateTotal=(productss)=>{
-    let totalPrice=productss.map((product)=>{
-         return product.price++;
-    })
-    totalPrice.forEach((res)=>{
-        let sum=res++;
-    })
-    return totalPrice;
+     let count=0;
+     productss.forEach((res)=>{
+       count+=res.price;
+
+     })
+     return count;
+   
 }
 let totalSum=calculateTotal(productss);
 console.log(totalSum);
+
+// exercise 3
+
+let removeDuplicates=(NUM)=>{
+    let newArr=[];
+    NUM.forEach((res)=>{
+        if(!newArr.includes(res)){
+            newArr.push(res);
+        }
+    })
+    return newArr; 
+
+    }
+let findOut=removeDuplicates([3,5,5,5,5,6,8,]);
+console.log(findOut);
+// repeat exercise
+let LongestWord=(s)=>{
+    let newS="";
+let finding=s.split(" ");
+finding.forEach((res)=>{
+    if(res.length>newS.length){
+        newS=res;
+      }   
+})
+return newS;
+}
+let output=LongestWord(" psychologically important");
+console.log(output);
+
+// exercise 4 created by myself
+
+let findSmallestWord=(s1)=>{
+
+    let finds=s1.split(" ");
+        let small=finds[0];
+    finds.forEach((res)=>{
+        if(res.length<small.length){
+          small=res;
+        }
+    })
+    return small;
+     
+}
+    
+
+let showSmallWord=findSmallestWord("hiiii mia");
+console.log(showSmallWord);
+
+// previous exercise
+// Q1
+let longest=(s2)=>{
+    let long="";
+    let finds=s2.split(" ");
+    finds.forEach((res)=>{
+      if(res.length>long.length){
+        long=res;
+      }   
+  })
+  return long;
+}
+let doIt=longest(" bravoo! Good to be hurt");
+console.log(doIt);
+
+// Q2
+let removeDuplicates2=(arr1)=>{
+    let arr2=[];
+    arr1.forEach((res)=>{
+        if(!arr2.includes(res))
+            arr2.push(res);
+    })
+    return arr2;
+}
+let remove=removeDuplicates2([1,2,1,4]);
+console.log(remove);
+
+// Q3
+let showProduct=[
+    {name:"phone",price:30000},
+    {name:"earphone",price:100},
+    {name:"earpods",price:500},
+]
+let calculations=(showProduct)=>{
+    let count=0;
+    showProduct.forEach((res)=>{
+        count=count+res.price;
+})
+     return count;
+}
+let calculatePrice=calculations(showProduct);
+console.log(calculatePrice);
+
+// Q3
+let countVowel=(s4)=>{
+    let finds=s4.split("").filter((res)=>{
+    if(res=='a'||res=='e'||res=='i'||res=='o'||res=='u'||res=='A'||res=='E'||res=='I'||res=='O'||res=='U'){
+      return res;
+    }
+ })
+   return finds;
+ 
+ 
+}
+let showVowels=countVowel("Muskan and Alexa are good Friends");
+console.log(showVowels);
+

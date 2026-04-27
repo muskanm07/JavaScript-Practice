@@ -88,4 +88,29 @@ calculate.addEventListener("click",()=>{
    console.log(res);
     
 })
+let taskInput=document.getElementById("taskInput");
+let addBtn=document.getElementById("addBtn");
+let taskList=document.getElementById("taskList");
+let counterr=0;
+addBtn.addEventListener("click",()=>{
+    let showTask=taskInput.value;
+    let li=document.createElement("li");
+    li.textContent=showTask;
+    counterr+=1;
+    let delBtn=document.createElement("button");
+    delBtn.textContent="Delete";
+    delBtn.addEventListener("click",()=>{
+       taskList.removeChild(li);
+    })
+    li.appendChild(delBtn);
+    taskList.appendChild(li);
 
+    taskInput.focus();
+  
+// to clear the input
+    taskInput.value="";
+    
+   console.log(counterr);
+  
+})
+ 

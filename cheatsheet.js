@@ -120,6 +120,18 @@ example- student[key]
 // we use call back when we want one function to do different task based on situation
 // in real world we use callbacks for example we want to add delete and edit task so we can do this through callback
 
+// ==================26 april 2026  update===================================
+
+// still have to practice on array
+
+// ===================27 april 2026 update===================================
+
+// filanally learnt where i need to create new variable for logic and use
+// i solved some problems by myself if there was not then i had made symmitrical syntax and logic structure
+// struggling less with logic
+// created my own little exercise and solved but struggled with little logic  
+// practiced some exercises from previous day without seeing it to improve my logic 
+
 
 // ----------------------------------DOM-------------------------------------------------
 // getElemnetById grabs html elements by ids
