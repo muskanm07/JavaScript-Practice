@@ -141,3 +141,66 @@ example- student[key]
 // when we want to show something from input box on webpage we use .value next to input variable
 // if we want to show numbers on webpage we use either Number() or parseInt() because we have to show number in form of int not string textcontext gives strinf
 // again i don'n read questions with full focus so try to read and understand question and logic first
+// to add functinality we use addeventlistener appemchiled when we want to add an element on webpage and removechild when we want to remove element from the webpage
+// example--------
+
+addBtn.addEventListener("click", () => {
+  // add task
+  // update counter
+  // clear input
+  // focus input
+  // ALL in one place!!
+})
+
+// ============================28 april 2026 ======================================
+
+
+// today i learnt some elemnets and functions
+// classList.add,remove,toggle
+// real life usage active button dark mode navbar highlight cklicked tab
+//  all the examples
+// user typed "Buy milk"
+let li = document.createElement("li")  
+// creates <li></li> in memory - not on page yet!!
+
+li.textContent = "Buy milk"            
+// <li>Buy milk</li> - added text!!
+
+taskList.appendChild(li)               
+// NOW it appears on page at END!!
+
+taskList.prepend(li)                   
+// appears at TOP instead!!
+
+// example 2
+// navbar menu open/close
+menuBtn.addEventListener("click", () => {
+  navbar.classList.toggle("hidden")
+  // open? → adds hidden → closes!!
+  // closed? → removes hidden → opens!!
+})
+
+// dark mode button
+darkBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark")
+  // toggle dark class on whole page!!
+})
+
+// active tab in navigation
+tab1.addEventListener("click", () => {
+  tab1.classList.add("active")     // highlight clicked tab
+  tab2.classList.remove("active")  // unhighlight others!!
+  tab3.classList.remove("active")
+})
+
+// example 3
+// use when you want formatting inside!!
+element.innerHTML = "<b>Hello</b> <i>Muskan</i>"
+// shows: Hello Muskan (bold + italic!!)
+
+// real world - showing a card!!
+card.innerHTML = `
+  <h2>${product.name}</h2>
+  <p>${product.price}</p>
+  <button>Add to Cart</button>
+`

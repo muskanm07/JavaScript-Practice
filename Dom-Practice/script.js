@@ -104,13 +104,112 @@ addBtn.addEventListener("click",()=>{
     })
     li.appendChild(delBtn);
     taskList.appendChild(li);
-
+    taskList.prepend(li)     
     taskInput.focus();
   
 // to clear the input
     taskInput.value="";
     
    console.log(counterr);
-  
 })
+
+// toggleBtn
+
+
+// exercise 1
+let darkBtn=document.getElementById("darkBtn");
+darkBtn.addEventListener("click",()=>{
+    document.body.classList.toggle("dark");
+    if(document.body.classList.contains("dark")){
+        darkBtn.textContent="Light Mode";
+        // document.body.style.backgroundColor="pink"
+    }else{
+        darkBtn.textContent="Dark Mode";
+        // document.body.style.backgroundColor="grey"
+    }
+    console.log(darkBtn)
+})
+let card=document.getElementById("card");
+let showCard=document.getElementById("showCard");
+
+showCard.addEventListener("click",()=>{
+ card.innerHTML=`
+          <h2>iphone</h2>
+          <p>price:80000</p>
+          <p>rating: 5 star</p>
+          `
+        })
+// exercise 3
+ let searchInput=document.getElementById("searchInput");
+ let searchResult=document.getElementById("searchResult");
+ searchInput.addEventListener("input",()=>{
+    let showResult=searchInput.value;
+    searchResult.textContent="Searching for : "+showResult;
+
+ })
+//  exercise 4
+ let itemInput=document.getElementById("itemInput");
+ let addItem=document.getElementById("addItem");
+ let itemList=document.getElementById("itemList");
+
+  addItem.addEventListener("click",()=>{
+    let showCase=itemInput.value;
+    let li=document.createElement("li");
+    li.textContent=showCase;
+    let delBtn=document.createElement("button");
+     delBtn.textContent="Delete";
+      let checkTask=document.createElement("input");
+        checkTask.type="checkbox";
+        let edit=document.createElement("button");
+        edit.textContent="Edit";
+        let inputEdit=document.createElement("input");
+        inputEdit.value=itemInput.value;
+        li.appendChild(inputEdit);
+        edit.addEventListener("click",()=>{
+          let editTask=itemInput.value;
+          itemList.append()
+           
+        })
+    delBtn.addEventListener("click",()=>{
+     li.remove();
+    });
+    checkTask.addEventListener("click",()=>{
+        if(checkTask.checked){
+            itemList.style.textDecoration="line-through";
+        }
+    })
+    itemList.appendChild(li);
+    li.appendChild(edit);
+    li.appendChild(delBtn);
+    li.appendChild(checkTask)
+    itemInput.value="";
+    itemInput.focus();
+    console.log(itemInput);
+  console.log(addItem);
+console.log(itemList);
+ })
  
+  let colorPicker=document.getElementById("colorPicker");
+  let colorText=document.getElementById("colorText");
+  colorPicker.addEventListener("input",()=>{
+   let showColor=colorPicker.value;
+//      colorText.style.color=showColor;
+//    console.log(showColor)
+  console.log(showColor)
+  document.body.style.backgroundColor = showColor  // yeh add kar!!
+  colorText.textContent = "Color: " + showColor
+  })
+  
+//   practice 1
+let countWord=document.getElementById("countWord");
+let action=document.getElementById("action");
+action.addEventListener("click",()=>{
+ 
+    let count=countWord.value;
+    if(count.length>12){
+     alert("you reached the limit")
+    }
+    
+})
+
+// practice 2

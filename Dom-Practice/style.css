@@ -1,0 +1,20 @@
+body{
+    background:pink;
+        color: black;
+}
+
+.dark{
+    background-color: grey;
+    color: white;
+}
+#darkBtn {
+  background: grey;
+  color: pink;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+.dark #darkBtn{
+    background-color: pink;
+    color: grey;
+}
