@@ -1,5 +1,5 @@
 
-# 🚀 JavaScript Practice — From Zero to MERN
+> Currently on Day 6 — building real projects with DOM!! 🔥
 
 > *"Future Muskan is depending on what I do tonight."*
 
@@ -31,6 +31,7 @@ This is my daily JavaScript practice log. Every file here represents real hands-
 | **Functions** | declarations, expressions, arrow functions, return vs console.log |
 | **Callbacks** | passing functions, higher order functions |
 | **DOM** | getElementById, textContent, style, addEventListener, input.value |
+| **DOM Advanced** | createElement, appendChild, removeChild, dynamic delete button |
 
 ### 🔄 Coming Soon
 
@@ -92,8 +93,8 @@ operate(5, 6, multiply) // 30
 | Day 2 | 23 April 2026 | Array methods, objects | 2 hrs |
 | Day 3 | 24 April 2026 | Object methods | 3 hrs |
 | Day 4 | 25 April 2026 | Functions and Callbacks| 3 hrs |
-| Day 5 | 26 April 2026 | DOM manipulation, event listeners, tip calculator | 3 hrs |
-
+| Day 5 | 26 April 2026 | DOM manipulation, event listeners, tip calculator | 3.5 hrs |
+| Day 6 | 27 April 2026 | DOM deeper, dynamic elements, mini todo app | 3.3hrs |
 ---
 
 ## 🛠️ How to Run
