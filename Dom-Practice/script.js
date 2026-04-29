@@ -83,7 +83,7 @@ calculate.addEventListener("click",()=>{
    let res=Number(ammountInput.value)+tip;
 
    let final=Number(amt.textContent);
-   final=res;
+    final=res;
    amt.textContent=final;
    console.log(res);
     
@@ -211,5 +211,103 @@ action.addEventListener("click",()=>{
     }
     
 })
+// keyboard Events
+let input=document.getElementById("taskInput");
+input.addEventListener("keypress",(e)=>{
+    console.log(e)
+    console.log(e.key);
+    console.log(e.keyCode);
+    // if Enter key pressed
+    if(e.key="Enter"){
+        console.log("Enter pressed!")
+    }
+})
+let mouseEvent=document.getElementById("darkBtn");
 
-// practice 2
+//  when mouse hovers
+mouseEvent.addEventListener("mouseover",()=>{
+   mouseEvent.style.backgroundColor="wheat";
+})
+// mouseEvent.addEventListener("mouseleave",()=>{
+//    mouseEvent.style.backgroundColor="blue";
+// })
+
+mouseEvent.addEventListener("mousedown",()=>{
+   mouseEvent.style.backgroundColor="yellow";
+})
+mouseEvent.addEventListener("mouseup",()=>{
+   mouseEvent.style.backgroundColor="#614848";
+})
+
+mouseEvent.addEventListener("mouseout",()=>{
+   mouseEvent.style.backgroundColor="black";
+})
+// exercise 1
+let textArea=document.getElementById("textArea");
+let charCount=document.getElementById("charCount");
+textArea.addEventListener("input",(e)=>{
+   
+  let charTextArea=Number(textArea.value.length);
+  charCount.textContent=charTextArea+"/100";
+  if(charTextArea>=100){
+   textArea.disabled=true;
+    // charCount.textContent="you have reached the limit";
+    textArea.style.border="2px solid red";
+    console.log("reached the limit")
+  }else{
+    console.log("great ")
+  }
+})
+// exercise 2
+let colorBox=document.getElementById("colorBox");
+let colorCode=document.getElementById("colorCode");
+let colorInput=document.createElement("input")
+colorInput.type="color";
+let randomColor=()=>{
+  let hex=Math.floor(Math.random()*16777215).toString(16);
+  return "#"+hex;
+}
+colorBox.addEventListener("click",()=>{
+   
+     let chooseColor=randomColor()
+     colorBox.style.backgroundColor=chooseColor;
+     colorCode.textContent="color: "+chooseColor;
+})
+
+// exercise 3
+let noteInput=document.getElementById("noteInput");
+let noteList=document.getElementById("noteList");
+
+noteInput.addEventListener("keypress",(e)=>{
+    let li=document.createElement("li");
+    let checkbox=document.createElement("input");
+    checkbox.type="checkbox"
+    if(e.key=="Enter"){
+    let showInput=noteInput.value;
+      li.textContent=showInput;
+      noteList.appendChild(li);
+      console.log(showInput)
+       noteInput.value="";
+}    
+  checkbox.addEventListener("click",()=>{
+    if(checkbox.checked){
+      li.style.textDecoration="line-through";
+}
+})
+  
+    li.appendChild(checkbox)
+
+})
+let openGithub=document.getElementById("openGithub")
+openGithub.addEventListener("click",()=>{
+  let anchor=document.createElement("a");
+   anchor.href="https://api.github.com/users/muskanm07".value;
+    let openLink=anchor;
+    document.body.textContent=openLink;
+       openGithub.appendChild(anchor);
+    
+})
+  
+
+
+

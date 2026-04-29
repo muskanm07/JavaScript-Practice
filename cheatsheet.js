@@ -203,4 +203,61 @@ card.innerHTML = `
   <h2>${product.name}</h2>
   <p>${product.price}</p>
   <button>Add to Cart</button>
+
 `
+// solved and practiced some DOM activities on web page
+// today i googled how to add type of input in JS
+
+
+
+// ==========================29 april 2026====================================
+
+
+
+// we use e in function it is an object and it's stands for event that contains all information about what just happend
+input.addEventListener("keypress", (e) => {
+  console.log(e)  // print whole event object!!
+})
+// if i am using keypress in event listener than it tells which key was pressed
+// where mouse was
+// what time it happend
+// which element was clicked
+// and much more
+// and we use e.preventDefault() - to stop default browser behaviours!!
+ 
+//-------- EVENT TYPES TABLE --------
+// Event          When it fires            Real world use
+// click          full mouse click         buttons, forms, links
+// input          typing in input          live search, validation
+// keypress       any key pressed          shortcuts, Enter to submit
+// mouseover      mouse enters element     dropdowns, tooltips
+// mouseout       mouse leaves element     close dropdowns
+// mousedown      mouse button pressed     drag start, drawing
+// mouseup        mouse button released    drag end, stop drawing
+// mousemove      mouse moving             custom cursor, parallax
+// scroll         page scrolling           sticky navbar, infinite scroll
+// submit         form submitted           form validation
+// change         value changed            color picker, select box
+// load           page fully loaded        run code after page ready
+
+// -------- SYNTAX --------
+// element.addEventListener("eventType", (e) => {
+//   e.key        which key pressed
+//   e.clientX    mouse X position
+//   e.clientY    mouse Y position
+//   e.target     element that triggered event
+// })
+// click event is the combination of mousedown and mouseup means when we click the element we press finger down and then up on mouse that is a mouse mousedown and mouseup event
+//  mouseleave and mouseout do the same thing
+
+// i  practiced and solved DOM exercises which helped me to buld more logic and making more sense
+// i did sillylogic errors so ihave to bem ore attentive in terms of logic
+// when i got stucked i googled and then tried by myself mostly got successfill and when it failed after trying so many times then use ai to give hints
+// today googled how to add disabled functionality on textarea and how to add hreflink to anchorTag in js
+// created random color generator and form validation
+// random hex color generator
+
+// JavaScript has something called ASI — Automatic Semicolon Insertion!!
+// so basically if we don not use semicolon at the end of code it automatically add semicolon where it thinks it should go!!
+
+

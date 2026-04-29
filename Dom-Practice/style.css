@@ -17,4 +17,14 @@ body{
 .dark #darkBtn{
     background-color: pink;
     color: grey;
+  
+}
+#nameInput{
+border: 2px solid red;
+}
+#openGithub{
+    background-color:#0e340a ;
+    color: rgb(183, 179, 179);
+    border: none;
+    padding:8px 16px ;
 }
