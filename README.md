@@ -1,5 +1,5 @@
 
-> Currently on Day 6 — building real projects with DOM!! 🔥
+> 🚀 Daily JS practice — variables, arrays, functions, DOM & more. Day 7 streak!! 💪 
 
 > *"Future Muskan is depending on what I do tonight."*
 
@@ -32,6 +32,9 @@ This is my daily JavaScript practice log. Every file here represents real hands-
 | **Callbacks** | passing functions, higher order functions |
 | **DOM** | getElementById, textContent, style, addEventListener, input.value |
 | **DOM Advanced** | createElement, appendChild, removeChild, dynamic delete button |
+| **DOM Events** | input, change, keypress, click, mouseover |
+| **DOM Classes** | classList.add, remove, toggle, contains |
+| **DOM Elements** | createElement, appendChild, prepend, remove, innerHTML |
 
 ### 🔄 Coming Soon
 
@@ -95,6 +98,7 @@ operate(5, 6, multiply) // 30
 | Day 4 | 25 April 2026 | Functions and Callbacks| 3 hrs |
 | Day 5 | 26 April 2026 | DOM manipulation, event listeners, tip calculator | 3.5 hrs |
 | Day 6 | 27 April 2026 | DOM deeper, dynamic elements, mini todo app | 3.3hrs |
+| Day 7 | 28 April 2026 | DOM methods, classList, innerHTML, color picker | 4.5 hrs |
 ---
 
 ## 🛠️ How to Run
