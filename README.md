@@ -1,4 +1,5 @@
  >  ⭐ If you found this helpful, give it a star
+
 > 🚀 Daily JS practice — variables, arrays, functions, DOM & more. Day 8 streak!! 💪 
 
 > *"Future Muskan is depending on what I do tonight."*
