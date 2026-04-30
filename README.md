@@ -1,5 +1,8 @@
+ >  ⭐ If you found this helpful, give it a star
 
-> 🚀 Daily JS practice — variables, arrays, functions, DOM & more. Day 7 streak!! 💪 
+> ⭐ 100+ developers have already cloned this repo
+
+> 🚀 Daily JS practice — variables, arrays, functions, DOM & more. Day 8 streak!! 💪 
 
 > *"Future Muskan is depending on what I do tonight."*
 
@@ -14,6 +17,8 @@ This is my daily JavaScript practice log. Every file here represents real hands-
 **Started:** April 2026
 **Goal:** Land a web developer job 🎯
 **Stack:** JavaScript → React → Node.js → MongoDB
+## 🚨 Who is this for?
+Beginner JavaScript learners who want structured daily practice with real examples.
 
 ---
 
@@ -35,6 +40,7 @@ This is my daily JavaScript practice log. Every file here represents real hands-
 | **DOM Events** | input, change, keypress, click, mouseover |
 | **DOM Classes** | classList.add, remove, toggle, contains |
 | **DOM Elements** | createElement, appendChild, prepend, remove, innerHTML |
+| **DOM Events** | keypress,mouseover,mouseout,mouseleave,mouseup,mousedown,form validation |
 
 ### 🔄 Coming Soon
 
@@ -48,7 +54,7 @@ This is my daily JavaScript practice log. Every file here represents real hands-
 
 ---
 
-## 🧠 My Cheatsheet
+# 🧠 My Personal JS Cheatsheet (Beginner Friendly)
 
 I maintain a personal `cheatsheet.js` file with everything I learn — written in my own words, not copied. Check it out to see how I think through concepts!!
 
@@ -99,7 +105,7 @@ operate(5, 6, multiply) // 30
 | Day 5 | 26 April 2026 | DOM manipulation, event listeners, tip calculator | 3.5 hrs |
 | Day 6 | 27 April 2026 | DOM deeper, dynamic elements, mini todo app | 3.3hrs |
 | Day 7 | 28 April 2026 | DOM methods, classList, innerHTML, color picker | 4.5 hrs |
----
+| Day 8 | 29 April 2026 |DOM Events,form validation practices and exercises|3.5 hrs|
 
 ## 🛠️ How to Run
 
