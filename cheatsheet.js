@@ -106,7 +106,7 @@ example- student[key]
 // that is why we use bracket notation inside foreach
 // ----------------------important---------------
 // when we use object.key it converts object into array so we can perform array functions and methods
-// in object we can use double notation to get the specif object's key value
+// in object we can use double notation to get the specific object's key value
 // first it checks which item in array then which property in object
 
 
@@ -139,9 +139,9 @@ example- student[key]
 // with the help of style.color we can style the webpage through JS
 // to add functionality in web page we use functions
 // when we want to show something from input box on webpage we use .value next to input variable
-// if we want to show numbers on webpage we use either Number() or parseInt() because we have to show number in form of int not string textcontext gives strinf
+// if we want to show numbers on webpage we use either Number() or parseInt() because we have to show number in form of int not string textcontext gives string
 // again i don'n read questions with full focus so try to read and understand question and logic first
-// to add functinality we use addeventlistener appemchiled when we want to add an element on webpage and removechild when we want to remove element from the webpage
+// to add functinality we use addeventlistener appenchiled when we want to add an element on webpage and removechild when we want to remove element from the webpage
 // example--------
 
 addBtn.addEventListener("click", () => {
@@ -157,7 +157,7 @@ addBtn.addEventListener("click", () => {
 
 // today i learnt some elemnets and functions
 // classList.add,remove,toggle
-// real life usage active button dark mode navbar highlight cklicked tab
+// real life usage active button dark mode navbar highlight clicked tab
 //  all the examples
 // user typed "Buy milk"
 let li = document.createElement("li")  
@@ -251,13 +251,71 @@ input.addEventListener("keypress", (e) => {
 //  mouseleave and mouseout do the same thing
 
 // i  practiced and solved DOM exercises which helped me to buld more logic and making more sense
-// i did sillylogic errors so ihave to bem ore attentive in terms of logic
-// when i got stucked i googled and then tried by myself mostly got successfill and when it failed after trying so many times then use ai to give hints
-// today googled how to add disabled functionality on textarea and how to add hreflink to anchorTag in js
+// i did sillylogic errors so ihave to be more attentive in terms of logic
+// when i got stucked i googled and then tried by myself mostly got successfull and when it failed after trying so many times then used ai to give hints
+// today googled how to add disabled functionality on textarea and how to add href link to anchorTag in js
 // created random color generator and form validation
 // random hex color generator
 
 // JavaScript has something called ASI — Automatic Semicolon Insertion!!
 // so basically if we don not use semicolon at the end of code it automatically add semicolon where it thinks it should go!!
 
+// ===========================30 april 2026=======================================
 
+// today i learned setTimeout which runs code after delay
+// syntax of setTimeout is---setTimeout(()=>{code}.milliseconds)
+// 1000ms=1 second
+// can have multiple setTimeouts---they run in parallel
+// practiced promise and setTimeOut inside it
+// promise has 3 states-------pending-waiting,resolved-success(then),rejected-error(catch)
+// .then() only runs when promise is resolved means its successful
+// .catch() only runs when promise is rejected means it failed through this we can catch errors
+// .finally() always runs whether promise is resolved or rejected
+
+
+// in modern development we use async await for promise it igves clean structure to the coding
+// it also prevents callback hell 
+// --------real world example--------------------
+// we use async await and promise in real world we use where it takes time to give results for example when we want to fetch api and get data from it
+// async await made code wait for slow things
+// javascript is synchronus by default so promise async await made it behave like a asynchronus
+// asynchronus means which task complete first it will give result not wait for other tasks to complete
+
+// ---------------------traditional way---------------------
+
+let promise2=new Promise((resolve,reject)=>{
+        let random=Math.random();
+        setTimeout(() => {
+            if(random>0.1){
+                resolve(random)
+            }else{
+                reject("failed")
+            }
+        }, 2000);
+    })
+    promise2.then((result)=>{     //through .then
+        console.log(result)
+    }).catch((e)=>{
+        console.log(e)
+    })
+
+    // async await
+// ----------modern way-------------------
+let promise3=new Promise((resolve)=>{
+        setTimeout(() => {
+            resolve("hello")
+        }, 3000);
+    })
+    async function sayHello(){
+        let result=await promise3;
+        console.log(result)
+    }
+    sayHello()
+
+    // solved 4 exercise of promise and async await
+    // for 2 exercises i had quite idea and in exercise 3 i did not used properly try and catch syntax
+    // so i have to focus and practice on that
+    // ohn exercise 4 again i was making it complex not reading questions well
+    // today's achievement------i know why when and how to use promises and async await
+    // today's problem------i get confused on promises and async await syntaxes cause they have many type syuntax to write
+    // so have to pracitce bit more

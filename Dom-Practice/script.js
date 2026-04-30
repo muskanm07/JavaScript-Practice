@@ -298,6 +298,7 @@ noteInput.addEventListener("keypress",(e)=>{
     li.appendChild(checkbox)
 
 })
+// practice without fetch
 let openGithub=document.getElementById("openGithub")
 openGithub.addEventListener("click",()=>{
   let anchor=document.createElement("a");
