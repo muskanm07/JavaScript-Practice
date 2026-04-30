@@ -1,5 +1,7 @@
  >  ⭐ If you found this helpful, give it a star
 
+> ⭐ 100+ developers have already cloned this repo
+
 > 🚀 Daily JS practice — variables, arrays, functions, DOM & more. Day 8 streak!! 💪 
 
 > *"Future Muskan is depending on what I do tonight."*
@@ -15,6 +17,8 @@ This is my daily JavaScript practice log. Every file here represents real hands-
 **Started:** April 2026
 **Goal:** Land a web developer job 🎯
 **Stack:** JavaScript → React → Node.js → MongoDB
+## 🚨 Who is this for?
+Beginner JavaScript learners who want structured daily practice with real examples.
 
 ---
 
@@ -50,7 +54,7 @@ This is my daily JavaScript practice log. Every file here represents real hands-
 
 ---
 
-## 🧠 My Cheatsheet
+# 🧠 My Personal JS Cheatsheet (Beginner Friendly)
 
 I maintain a personal `cheatsheet.js` file with everything I learn — written in my own words, not copied. Check it out to see how I think through concepts!!
 
