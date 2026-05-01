@@ -41,6 +41,7 @@ Beginner JavaScript learners who want structured daily practice with real exampl
 | **DOM Classes** | classList.add, remove, toggle, contains |
 | **DOM Elements** | createElement, appendChild, prepend, remove, innerHTML |
 | **DOM Events** | keypress,mouseover,mouseout,mouseleave,mouseup,mousedown,form validation |
+| **Advance Javascript**|promises, setTimeout, async,await,adding eventlistener on async function|
 
 ### 🔄 Coming Soon
 
@@ -106,6 +107,7 @@ operate(5, 6, multiply) // 30
 | Day 6 | 27 April 2026 | DOM deeper, dynamic elements, mini todo app | 3.3hrs |
 | Day 7 | 28 April 2026 | DOM methods, classList, innerHTML, color picker | 4.5 hrs |
 | Day 8 | 29 April 2026 |DOM Events,form validation practices and exercises|3.5 hrs|
+| Day 9 | 30 April 2026 |promises, setTimeout, async,await practices and exercises|4 hrs|
 
 ## 🛠️ How to Run
 
