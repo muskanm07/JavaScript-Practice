@@ -72,7 +72,7 @@ let recent = notifications.slice(-3)
 // ---splice------------------------------
 // slice slice do not change the original array make the copies of it and splice directly changed the original array
 // splice(start,deleteCount)-remove items change original
-// splice(start,0,newItem- adds item at that position
+// splice(start,0,newItem)- adds item at that position
 
 // ------------Real examples:
 // User deletes a todo → splice removes it from array
@@ -87,11 +87,11 @@ let recent = notifications.slice(-3)
 //------------------------ object--------------------------------
 
 // in object we group related data about one thing in the box
-// and ther is no need for let when adding new property
+// and there is no need for let when adding new property
 // we can access single property with the dot notation
 // in real world example like we store user data like email password username etc. and job listing
 // MongoDB documents are literally JS objects
-// if i am performig some task like like filtering mapping foreach and find first see ans study the question 4-5 times and understand what it says
+// if i am performig some task like like filtering mapping foreach and find first see and study the question 4-5 times and understand what it says
 // and we can perform task like chain connected to each other by using their variables like we can use filter's variable in map to build logic performing task only filtered value and this was my big mistake today so read and understand question
 // and if array has object we will use res.property if it does not have objects but strings and numbers then we will use only just res inside method function got it!
 // there is two ways to access object property:
@@ -101,7 +101,7 @@ example- student.name
 example- student[key]
 // in object Object.keys().foreach() is the best way to loop through object
 // use bracket notation scores[score] when key is in a variable
-//  if we write scores.react i mean one specific key value then it will print on all in foreach but i want all key with their valuuue so we don't use any specifice key value or key we just use bracket notation
+//  if we write scores.react i mean one specific key value then it will print on all in foreach but i want all key with their value so we don't use any specifice key value or key we just use bracket notation
 // dot notation gives one specific fixed value and bracket notation changes dynamically every loop
 // that is why we use bracket notation inside foreach
 // ----------------------important---------------
@@ -247,11 +247,11 @@ input.addEventListener("keypress", (e) => {
 //   e.clientY    mouse Y position
 //   e.target     element that triggered event
 // })
-// click event is the combination of mousedown and mouseup means when we click the element we press finger down and then up on mouse that is a mouse mousedown and mouseup event
+// click event is the combination of mousedown and mouseup means when we click the element we press finger down and then up on mouse that is a  mousedown and mouseup event
 //  mouseleave and mouseout do the same thing
 
 // i  practiced and solved DOM exercises which helped me to buld more logic and making more sense
-// i did sillylogic errors so ihave to be more attentive in terms of logic
+// i did silly logic errors so i have to be more attentive in terms of logic
 // when i got stucked i googled and then tried by myself mostly got successfull and when it failed after trying so many times then used ai to give hints
 // today googled how to add disabled functionality on textarea and how to add href link to anchorTag in js
 // created random color generator and form validation
@@ -273,7 +273,7 @@ input.addEventListener("keypress", (e) => {
 // .finally() always runs whether promise is resolved or rejected
 
 
-// in modern development we use async await for promise it igves clean structure to the coding
+// in modern development we use async await for promise it gives clean structure to the coding
 // it also prevents callback hell 
 // --------real world example--------------------
 // we use async await and promise in real world we use where it takes time to give results for example when we want to fetch api and get data from it
@@ -315,7 +315,16 @@ let promise3=new Promise((resolve)=>{
     // solved 4 exercise of promise and async await
     // for 2 exercises i had quite idea and in exercise 3 i did not used properly try and catch syntax
     // so i have to focus and practice on that
-    // ohn exercise 4 again i was making it complex not reading questions well
+    // on exercise 4 again i was making it complex not reading questions well
     // today's achievement------i know why when and how to use promises and async await
-    // today's problem------i get confused on promises and async await syntaxes cause they have many type syuntax to write
+    // today's problem------i get confused on promises and async await syntaxes cause they have many type of syuntax to write
     // so have to pracitce bit more
+
+
+    
+    // ======================= 1 may 2026======================================
+    
+    
+    // in fecth we don't need to add promise it automatically returns promise internally
+    // means fetch is a built-in-promise no need to create one
+

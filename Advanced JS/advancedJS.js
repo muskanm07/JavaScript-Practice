@@ -178,3 +178,18 @@ btn.addEventListener("click",()=>{
         }
     }
     practiceWithError()
+
+    async function getGithub(params) {
+        try{
+            let response=await fetch("https://api.github.com/users/muskanm07")
+            let data=await response.json()
+
+            console.log(data.name)
+            console.log(data.public_repos)
+            console.log(data.avatar_url)
+        }
+    catch(e){
+    console.log("throws an error: ",e)
+    }
+}
+getGithub()

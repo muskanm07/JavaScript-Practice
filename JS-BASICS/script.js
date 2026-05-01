@@ -565,3 +565,8 @@ let countVowel=(s4)=>{
 let showVowels=countVowel("Muskan and Alexa are good Friends");
 console.log(showVowels);
 
+let newArr=["cherry","rose","leaves","summer"]
+let newIndex=newArr.indexOf("cherry");
+ newArr.splice(newIndex,1)
+ console.log(newArr)
+
