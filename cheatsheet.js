@@ -70,7 +70,7 @@ let page2 = products.slice(5, 10)
 let recent = notifications.slice(-3)
 
 // ---splice------------------------------
-// slice slice do not change the original array make the copies of it and splice directly changed the original array
+// slice- slice do not change the original array make the copies of it and splice directly changed the original array
 // splice(start,deleteCount)-remove items change original
 // splice(start,0,newItem)- adds item at that position
 
@@ -141,7 +141,7 @@ example- student[key]
 // when we want to show something from input box on webpage we use .value next to input variable
 // if we want to show numbers on webpage we use either Number() or parseInt() because we have to show number in form of int not string textcontext gives string
 // again i don'n read questions with full focus so try to read and understand question and logic first
-// to add functinality we use addeventlistener appenchiled when we want to add an element on webpage and removechild when we want to remove element from the webpage
+// to add functionality we use addeventlistener appenchiled when we want to add an element on webpage and removechild when we want to remove element from the webpage
 // example--------
 
 addBtn.addEventListener("click", () => {
@@ -317,7 +317,7 @@ let promise3=new Promise((resolve)=>{
     // so i have to focus and practice on that
     // on exercise 4 again i was making it complex not reading questions well
     // today's achievement------i know why when and how to use promises and async await
-    // today's problem------i get confused on promises and async await syntaxes cause they have many type of syuntax to write
+    // today's problem------i get confused on promises and async await syntaxes cause they have many type of syntax to write
     // so have to pracitce bit more
 
 
@@ -325,6 +325,9 @@ let promise3=new Promise((resolve)=>{
     // ======================= 1 may 2026======================================
     
     
-    // in fecth we don't need to add promise it automatically returns promise internally
+    // in fetch we don't need to add promise it automatically returns promise internally
     // means fetch is a built-in-promise no need to create one
+    // i made the github profile finder by myself
+    // googled how to add img through js on webpage through fetch api
+    
 

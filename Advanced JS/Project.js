@@ -6,19 +6,19 @@ async function getData() {
         fetchBtn.addEventListener("click",async()=>{
    try{
 
-     let response=await fetch("https://api.github.com/users/muskanm07")
+     let response=await fetch("https://api.github.com/users/"+githubName)
         let data= await response.json();
      
              console.log("hello")
-            let myName=data.name;
+            let Name=data.name;
             githubName.textContent=myName;
             
             let avatar=document.getElementById("avatar").src= data.avatar_url;
             console.log(avatar)
 
-            let myRepo=data.public_repos;
-             repoCount.textContent=myRepo
-                console.log(myName)
+            let Repo=data.public_repos;
+             repoCount.textContent=Repo
+                console.log(Name)
  } catch(e){
         console.log("error",e)
     }
