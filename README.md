@@ -42,6 +42,7 @@ Beginner JavaScript learners who want structured daily practice with real exampl
 | **DOM Elements** | createElement, appendChild, prepend, remove, innerHTML |
 | **DOM Events** | keypress,mouseover,mouseout,mouseleave,mouseup,mousedown,form validation |
 | **Advance Javascript**|promises, setTimeout, async,await,adding eventlistener on async function|
+| **Fetch API**|promises,async-await function,fetch API ,try-catch error handling|
 
 ### 🔄 Coming Soon
 
@@ -108,6 +109,8 @@ operate(5, 6, multiply) // 30
 | Day 7 | 28 April 2026 | DOM methods, classList, innerHTML, color picker | 4.5 hrs |
 | Day 8 | 29 April 2026 |DOM Events,form validation practices and exercises|3.5 hrs|
 | Day 9 | 30 April 2026 |promises, setTimeout, async,await practices and exercises|4 hrs|
+| Day 10 | 30 April 2026 |async function ,API fetching,github profile finder activity|3 hrs|
+
 
 ## 🛠️ How to Run
 
